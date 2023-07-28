@@ -42,7 +42,7 @@ Please cite our paper if you find this code or our work useful for your research
 @article{adiga2022leveraging,
   title={Leveraging Labeling Representations in Uncertainty-based Semi-supervised Segmentation},
   author={Adiga V, Sukesh and Dolz, Jose and Lombaert, Herve},
-  journal={arXiv preprint arXiv:2203.05682},
+  journal={MICCAI},
   year={2022}
 }
 ```
