@@ -3,15 +3,12 @@
 
 A prominent way to utilize the unlabeled data in Semi-supervised segmentation is by consistency training which commonly uses a teacher-student network. The predictions of unlabeled data are not reliable, therefore, uncertainty-aware methods have been proposed to gradually learn from reliable predictions. Uncertainty estimation, however, relies on multiple inferences that need to be computed for each training step, which is expensive. We propose a novel method to estimate the uncertainty by leveraging the labeling representation of segmentation masks. A labeling representation is learnt to represent the available segmentation masks. The learnt labeling representation is used to map the prediction of the segmentation into a set of plausible masks. Such a reconstructed segmentation mask aids in estimating the pixel-level uncertainty guiding the segmentation network. The proposed method estimates the uncertainty with a single inference from the labeling representation, thereby reducing the total computation.
 
-**Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, and Uncertainty
-
 **TL;DR:** A novel way to estimate the pixel-wise uncertainty using labeling representation to guide the segmentation model.
 
-**Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, and Uncertainty
 
-**TL;DR:** A novel way to estimate the pixel-wise uncertainty using labeling representation to guide the training of a segmentation model.
+<p align="center">  <img src = 'Files/Anatomical_rep_Arch.png' height = '300px'>
 
-[[paper](https://arxiv.org/abs/2203.05682)]
+**Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, Anatomical prior and Uncertainty
 
 ### Dependencies
 This code depends on the following libraries:
