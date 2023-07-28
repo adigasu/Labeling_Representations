@@ -5,10 +5,10 @@ A prominent way to utilize the unlabeled data in Semi-supervised segmentation is
 
 **TL;DR:** A novel way to estimate the pixel-wise uncertainty using labeling representation to guide the segmentation model.
 
-
 <p align="center">  <img src = 'Files/Anatomical_rep_Arch.png' height = '300px'>
 
 **Keywords:** Semi-Supervised learning, Segmentation, Labeling Representation, Anatomical prior and Uncertainty
+
 
 ### Dependencies
 This code depends on the following libraries:
